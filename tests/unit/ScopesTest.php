@@ -1,8 +1,8 @@
 <?php
 
-namespace kradwhite\myTarget\api\oauth2\tests\unit;
+namespace dugard\myTarget\api\oauth2\tests\unit;
 
-use kradwhite\myTarget\api\oauth2\Scopes;
+use dugard\myTarget\api\oauth2\Scopes;
 
 class ScopesTest extends \Codeception\Test\Unit
 {

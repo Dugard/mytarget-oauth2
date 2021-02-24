@@ -1,8 +1,8 @@
 <?php
 
-namespace kradwhite\myTarget\api\oauth2\tests\unit;
+namespace dugard\myTarget\api\oauth2\tests\unit;
 
-use kradwhite\myTarget\api\oauth2\token\DeleteToken;
+use dugard\myTarget\api\oauth2\token\DeleteToken;
 
 class DeleteTokenTest extends \Codeception\Test\Unit
 {

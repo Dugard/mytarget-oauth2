@@ -5,15 +5,15 @@
  * Time: 21:25
  */
 
-namespace kradwhite\myTarget\api\oauth2\grant;
+namespace dugard\myTarget\api\oauth2\grant;
 
 use GuzzleHttp\Exception\GuzzleException;
-use kradwhite\myTarget\api\oauth2\Transport;
+use dugard\myTarget\api\oauth2\Transport;
 
 /**
  * Authorization Code Grant используется для получения доступа к данным сторонних аккаунтов myTarget
  * Class AuthorizationCodeGrant
- * @package kradwhite\myTarget\api\oauth2\grant
+ * @package dugard\myTarget\api\oauth2\grant
  * @link https://target.my.com/adv/api-marketing/doc/authorization
  */
 class AuthorizationCodeGrant

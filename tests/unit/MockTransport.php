@@ -5,14 +5,14 @@
  * Time: 20:59
  */
 
-namespace kradwhite\myTarget\api\oauth2\tests\unit;
+namespace dugard\myTarget\api\oauth2\tests\unit;
 
 use GuzzleHttp\Client;
-use kradwhite\myTarget\api\oauth2\Transport;
+use dugard\myTarget\api\oauth2\Transport;
 
 /**
  * Class MockTransport
- * @package kradwhite\myTarget\api\oauth2\tests\unit
+ * @package dugard\myTarget\api\oauth2\tests\unit
  */
 class MockTransport extends Transport
 {

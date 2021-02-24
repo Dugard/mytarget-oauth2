@@ -1,21 +1,21 @@
 {
-    "name": "kradwhite/mytarget-oauth2",
+    "name": "dugard/mytarget-oauth2",
     "type": "library",
-    "description": "MyTarget oauth2 api library",
+    "description": "PHP library for MyTarget OAuth2 API",
     "keywords": [
-        "kradwhite",
+        "php",
         "myTarget",
 		"api",
         "oauth2",
-        "token"
+        "ads"
     ],
-    "homepage": "https://github.com/kradwhite/mytarget-oauth2",
+    "homepage": "https://github.com/Dugard/mytarget-oauth2",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "kradwhite",
-            "email": "kradwhite@mail.ru",
-            "homepage": "https://github.com/kradwhite",
+            "name": "Ivan Shkuta",
+            "email": "shkuta85@gmail.com",
+            "homepage": "https://github.com/Dugard",
             "role": "Developer"
         }
     ],
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "kradwhite\\myTarget\\api\\oauth2\\": "src"
+            "dugard\\myTarget\\api\\oauth2\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "kradwhite\\myTarget\\api\\oauth2\\tests\\": "tests"
+            "dugard\\myTarget\\api\\oauth2\\tests\\": "tests"
         }
     },
     "scripts": {

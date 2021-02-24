@@ -5,19 +5,19 @@
  * Time: 20:09
  */
 
-namespace kradwhite\myTarget\api\oauth2;
+namespace dugard\myTarget\api\oauth2;
 
 use GuzzleHttp\Client;
-use kradwhite\myTarget\api\oauth2\grant\AgencyCredentialsGrant;
-use kradwhite\myTarget\api\oauth2\grant\AuthorizationCodeGrant;
-use kradwhite\myTarget\api\oauth2\grant\Authorize;
-use kradwhite\myTarget\api\oauth2\grant\ClientCredentialsGrant;
-use kradwhite\myTarget\api\oauth2\grant\RefreshToken;
-use kradwhite\myTarget\api\oauth2\token\DeleteToken;
+use dugard\myTarget\api\oauth2\grant\AgencyCredentialsGrant;
+use dugard\myTarget\api\oauth2\grant\AuthorizationCodeGrant;
+use dugard\myTarget\api\oauth2\grant\Authorize;
+use dugard\myTarget\api\oauth2\grant\ClientCredentialsGrant;
+use dugard\myTarget\api\oauth2\grant\RefreshToken;
+use dugard\myTarget\api\oauth2\token\DeleteToken;
 
 /**
  * Class Oauth2
- * @package kradwhite\myTarget\api\oauth2
+ * @package dugard\myTarget\api\oauth2
  * @link https://target.my.com/adv/api-marketing/doc/authorization
  */
 class Oauth2

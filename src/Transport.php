@@ -5,7 +5,7 @@
  * Time: 08:50
  */
 
-namespace kradwhite\myTarget\api\oauth2;
+namespace dugard\myTarget\api\oauth2;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
@@ -13,7 +13,7 @@ use GuzzleHttp\Exception\TransferException;
 
 /**
  * Class Transport
- * @package kradwhite\myTarget\api\oauth2
+ * @package dugard\myTarget\api\oauth2
  */
 class Transport
 {

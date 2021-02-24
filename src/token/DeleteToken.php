@@ -5,15 +5,15 @@
  * Time: 08:40
  */
 
-namespace kradwhite\myTarget\api\oauth2\token;
+namespace dugard\myTarget\api\oauth2\token;
 
 use GuzzleHttp\Exception\GuzzleException;
-use kradwhite\myTarget\api\oauth2\Transport;
+use dugard\myTarget\api\oauth2\Transport;
 
 /**
  * При достижении лимита на количество токенов можно самостоятельно удалить все токены конкретного пользователя
  * Class DeleteToken
- * @package kradwhite\myTarget\api\oauth2\token
+ * @package dugard\myTarget\api\oauth2\token
  * @link https://target.my.com/adv/api-marketing/doc/authorization
  */
 class DeleteToken

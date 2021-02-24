@@ -1,6 +1,6 @@
 <?php
 
-namespace kradwhite\myTarget\api\oauth2\tests\unit;
+namespace dugard\myTarget\api\oauth2\tests\unit;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use kradwhite\myTarget\api\oauth2\Transport;
+use dugard\myTarget\api\oauth2\Transport;
 
 class TransportTest extends \Codeception\Test\Unit
 {

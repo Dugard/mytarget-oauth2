@@ -5,15 +5,15 @@
  * Time: 21:32
  */
 
-namespace kradwhite\myTarget\api\oauth2\grant;
+namespace dugard\myTarget\api\oauth2\grant;
 
 use GuzzleHttp\Exception\GuzzleException;
-use kradwhite\myTarget\api\oauth2\Transport;
+use dugard\myTarget\api\oauth2\Transport;
 
 /**
  * Обновление токена доступа
  * Class RefreshToken
- * @package kradwhite\myTarget\api\oauth2\grant
+ * @package dugard\myTarget\api\oauth2\grant
  * @link https://target.my.com/adv/api-marketing/doc/authorization
  */
 class RefreshToken

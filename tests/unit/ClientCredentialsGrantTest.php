@@ -5,11 +5,11 @@
  * Time: 20:59
  */
 
-namespace kradwhite\myTarget\api\oauth2\tests\unit;
+namespace dugard\myTarget\api\oauth2\tests\unit;
 
-use kradwhite\myTarget\api\oauth2\grant\ClientCredentialsGrant;
-use kradwhite\myTarget\api\oauth2\Oauth2;
-use kradwhite\myTarget\api\oauth2\Transport;
+use dugard\myTarget\api\oauth2\grant\ClientCredentialsGrant;
+use dugard\myTarget\api\oauth2\Oauth2;
+use dugard\myTarget\api\oauth2\Transport;
 
 class ClientCredentialsGrantTest extends \Codeception\Test\Unit
 {

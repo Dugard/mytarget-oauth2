@@ -5,14 +5,14 @@
  * Time: 20:59
  */
 
-namespace kradwhite\myTarget\api\oauth2;
+namespace dugard\myTarget\api\oauth2;
 
 /**
  * Права доступа определяют какие действия может произвести API-клиент с данными, предоставившего доступ аккаунта.
  * Необходимые права указываются через запятую в параметре "scope" запроса доступа у пользователя в схеме
  * Authorization Code Grant. В зависимости от типа пользователя запрашиваемые права доступа делятся на три группы.
  * Class Scopes
- * @package kradwhite\myTarget\api\oauth2
+ * @package dugard\myTarget\api\oauth2
  * @link https://target.my.com/adv/api-marketing/doc/authorization
  */
 class Scopes
